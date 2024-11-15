@@ -2,21 +2,21 @@
 import Image from "next/image";
 import { Textarea, Button, Input, Card, CardHeader, CardBody, CardFooter, Avatar, Select, SelectItem } from "@nextui-org/react";
 import { FaFacebookF } from 'react-icons/fa';
-
+import Shopify from './fonts/Shopify-Logo.png'
+import Google from './fonts/Google-Logo.png'
+import Cloudflare from './fonts/Cloudflare-Logo.png'
+import PayPal from './fonts/PayPal-Logo.png'
 export default function Home() {
   return (
     <>
-
       <div>
         <div className="bg-gray-300">
           <div className="mx-auto max-w-7xl lg:px-8">
             <div className="relative isolate overflow-hidden px-6 pt-16  sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
               <svg viewBox="0 0 1024 1024" className="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
-                <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+                <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" />
                 <defs>
                   <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                    <stop stop-color="#7775D6" />
-                    <stop offset="1" stop-color="#E935C1" />
                   </radialGradient>
                 </defs>
               </svg>
@@ -321,9 +321,9 @@ export default function Home() {
               />
               <figure className="mt-10">
                 <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
-                  <p>
+                  <div>
                     “Chuyên cung cấp và giao dịch các sản phẩm số, đặc biệt dành cho cộng đồng MMO (Kiếm tiền online). Tạo ra một môi trường giao dịch an toàn, thuận tiện và đáng tin cậy cho người dùng, giúp giảm thiểu tình trạng lừa đảo trên các nền tảng mạng xã hội và internet.”
-                  </p>
+                  </div>
                 </blockquote>
                 <figcaption className="mt-10">
                   <img
@@ -342,6 +342,48 @@ export default function Home() {
               </figure>
             </div>
           </section>
+          <section className="mx-auto">
+        <div className="container px-5 mx-auto lg:px-24 ">
+          <div className="flex flex-col w-full mb-4 text-left lg:text-center">
+            <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
+            <div className="flex items-center justify-center">
+            <Image
+              src={Shopify}
+              alt="Picture of the author"
+              width={100}
+              height={100}
+            />
+            </div>
+            <div className="flex items-center justify-center">
+            <Image
+              src={Google}
+              alt="Picture of the author"
+              width={100}
+              height={60}
+            />
+            </div>
+            <div className="flex items-center justify-center">
+            <Image
+              src={Cloudflare}
+              alt="Picture of the author"
+              width={100}
+              height={100}
+            />
+            </div>
+            <div className="flex items-center justify-center">
+            <Image
+              src={PayPal}
+              alt="Picture of the author"
+              width={100}
+              height={100}
+            />
+            </div>
+          </div>
+        </div>
+      </section>
           <div>
           </div>
         </div>

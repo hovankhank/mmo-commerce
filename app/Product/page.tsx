@@ -407,9 +407,9 @@ const ProductLists = async () => {
                                             </Button>
                                         </CardHeader>
                                         <CardBody className="px-3 py-0 text-small text-default-400">
-                                            <p>
+                                            <div>
                                                 Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-                                            </p>
+                                            </div>
                                             <span className="pt-2">
                                                 #FrontendWithZoey
                                                 <span className="py-2" aria-label="computer" role="img">
@@ -449,9 +449,9 @@ const ProductLists = async () => {
                                             </Button>
                                         </CardHeader>
                                         <CardBody className="px-3 py-0 text-small text-default-400">
-                                            <p>
+                                            <div>
                                                 Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-                                            </p>
+                                            </div>
                                             <span className="pt-2">
                                                 #FrontendWithZoey
                                                 <span className="py-2" aria-label="computer" role="img">
@@ -491,9 +491,9 @@ const ProductLists = async () => {
                                             </Button>
                                         </CardHeader>
                                         <CardBody className="px-3 py-0 text-small text-default-400">
-                                            <p>
+                                            <div>
                                                 Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-                                            </p>
+                                            </div>
                                             <span className="pt-2">
                                                 #FrontendWithZoey
                                                 <span className="py-2" aria-label="computer" role="img">
@@ -533,9 +533,9 @@ const ProductLists = async () => {
                                             </Button>
                                         </CardHeader>
                                         <CardBody className="px-3 py-0 text-small text-default-400">
-                                            <p>
+                                            <div>
                                                 Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-                                            </p>
+                                            </div>
                                             <span className="pt-2">
                                                 #FrontendWithZoey
                                                 <span className="py-2" aria-label="computer" role="img">
@@ -575,9 +575,9 @@ const ProductLists = async () => {
                                             </Button>
                                         </CardHeader>
                                         <CardBody className="px-3 py-0 text-small text-default-400">
-                                            <p>
+                                            <div>
                                                 Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-                                            </p>
+                                            </div>
                                             <span className="pt-2">
                                                 #FrontendWithZoey
                                                 <span className="py-2" aria-label="computer" role="img">

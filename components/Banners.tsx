@@ -1,4 +1,4 @@
-"use client"
+
 // import { Avatar } from "@nextui-org/react";
 // import { IoMail } from "react-icons/io5";
 // import { MdSupportAgent } from "react-icons/md";
@@ -30,9 +30,9 @@ export default function Banners() {
         />
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p className="text-lg text-gray-900">
+        <div className="text-lg text-gray-900">
           <div className="font-semibold">Hỗ trợ trực tuyến:</div>
-        </p>
+        </div>
         <div className="flex text-base">
           {/* <MdSupportAgent size={24} /> */}
           <div> Liên hệ: 0933322666</div>

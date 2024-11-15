@@ -27,7 +27,7 @@ export default function Nav() {
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
-                                    <Link href="/ProductLists" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sản phẩm</Link>
+                                    <Link href="/Product" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sản phẩm</Link>
                                     <Link href="/Service" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Dịch vụ</Link>
                                     <Link href="/Support" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Hỗ trợ</Link>
                                     <Link href="/News" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Chia sẻ</Link>
@@ -109,17 +109,17 @@ export default function Nav() {
                             <ModalBody>
                                 <Input
                                     autoFocus
-                                    //  endContent={
-                                    //    <MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-                                    //  }
+                                    endContent={
+                                        <MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
+                                    }
                                     label="Email"
                                     placeholder="Enter your email"
                                     variant="bordered"
                                 />
                                 <Input
-                                    //  endContent={
-                                    //    <LockIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-                                    //  }
+                                    endContent={
+                                        <LockIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
+                                    }
                                     label="Password"
                                     placeholder="Enter your password"
                                     type="password"
