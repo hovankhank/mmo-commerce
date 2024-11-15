@@ -19,3 +19,33 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #d1d5db;
+}
+
+.content {
+  flex: 1; 
+  max-width: 1000px; 
+}
+
+.ad-banner {
+  width: 300px; 
+  height: 570px; 
+  background-color: #5e5c5c;
+  border: 1px solid #ac1a1a;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.ad-banner.left {
+  align-self: flex-start;
+}
+
+.ad-banner.right {
+  align-self: flex-start;
+}
