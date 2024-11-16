@@ -5,8 +5,8 @@ import { Input } from "@nextui-org/react";
 import Footers from "@/components/Footers";
 const Support = async () => {
   return (
-      <div className=" bg-opacity-75 flex items-center justify-center z-50">
-        <div className="bg-white rounded-lg p-24 w-3/4 flex relative">
+      <div className=" bg-opacity-75 flex items-center justify-center">
+        <div className=" p-24 w-full flex relative pt-">
           <div className="w-3/5 bg-gray-800 text-white p-6 rounded-l-lg">
             <h2 className="text-2xl font-bold mb-4 text-center">Liên hệ với chúng tôi</h2>
             <div className="mb-4">Say something to start a live chat!</div>
@@ -22,7 +22,7 @@ const Support = async () => {
             <div className="flex items-center space-x-4 mt-6 ps-32">
             </div>
           </div>
-          <div className="w-2/5 p-6">
+          <div className="w-2/5 p-6 bg-white">
             <div className="flex space-x-4 mb-4">
               <div className="w-1/2">
                 <label className="block text-gray-700">Name</label>
