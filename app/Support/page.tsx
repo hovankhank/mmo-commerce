@@ -2,11 +2,11 @@
 
 import { Textarea, Button } from "@nextui-org/react";
 import { Input } from "@nextui-org/react";
-import Footers from "@/components/Footers";
 const Support = async () => {
   return (
-      <div className=" bg-opacity-75 flex items-center justify-center z-50">
-        <div className="bg-white rounded-lg p-24 w-3/4 flex relative">
+    <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="rounded-lg flex relative p-48">
           <div className="w-3/5 bg-gray-800 text-white p-6 rounded-l-lg">
             <h2 className="text-2xl font-bold mb-4 text-center">Liên hệ với chúng tôi</h2>
             <div className="mb-4">Say something to start a live chat!</div>
@@ -72,6 +72,7 @@ const Support = async () => {
           </button>
         </div>
       </div>
+    </div>
   );
 }
 export default Support;
